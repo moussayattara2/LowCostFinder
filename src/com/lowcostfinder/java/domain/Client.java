@@ -1,4 +1,4 @@
-package domain;
+package com.lowcostfinder.java.domain;
 
 public class Client {
 
