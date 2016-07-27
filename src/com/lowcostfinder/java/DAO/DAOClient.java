@@ -13,7 +13,8 @@ public class DAOClient implements IEDAOClient {
 	@Override
 	public void insertClient(Client client) {
 		// TODO Auto-generated method stub
-		
+		final String CLIENT_INSERT="insert into Client(ID_CLIENT,NOM_CLIENT,PRENOM_CLIENT,EMAIL_CLIENT,ADRESSE_CLIENT)"
+				+"values(?,?,)";
 	}
 
 	@Override
